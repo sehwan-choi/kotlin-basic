@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2dc726a-0fe1-4d2c-bce5-41154142d708" name="Changes" comment="" />
+    <list default="true" id="b2dc726a-0fe1-4d2c-bce5-41154142d708" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec01_변수를_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec02_null을_다루는_방법/Lec02Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec03_Type_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec03_Type_다루는_방법/Lec03Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec03_Type_다루는_방법/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/KotlinMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/KotlinMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lec01/KotlinMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lec02_null을_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lec01/Lec01Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lec01_변수를_다루는_방법/Lec01Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lec01/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lec01_변수를_다루는_방법/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1739703986" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -23,12 +66,65 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.KotlinMainKt (1).executor": "Run",
+    "Kotlin.KotlinMainKt (2).executor": "Run",
+    "Kotlin.KotlinMainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/study/kotlin_초급편/소스/kotlin-basic/src/lec03_Type_다루는_방법",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec03_Type_다루는_방법" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec02_null을_다루는_방법" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec01" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="lec01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lec02_null을_다루는_방법" />
+      <recent name="lec01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.KotlinMainKt (2)">
+    <configuration name="KotlinMainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lec02_null을_다루는_방법.KotlinMainKt" />
+      <module name="kotlin-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KotlinMainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lec03_Type_다루는_방법.KotlinMainKt" />
+      <module name="kotlin-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KotlinMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lec01_변수를_다루는_방법.KotlinMainKt" />
+      <module name="kotlin-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.KotlinMainKt (2)" />
+        <item itemvalue="Kotlin.KotlinMainKt (1)" />
+        <item itemvalue="Kotlin.KotlinMainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739703822350</updated>
-      <workItem from="1739703823488" duration="3000" />
+      <workItem from="1739703823488" duration="4083000" />
     </task>
     <servers />
   </component>

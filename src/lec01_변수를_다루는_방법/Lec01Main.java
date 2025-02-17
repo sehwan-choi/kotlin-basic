@@ -1,7 +1,4 @@
-package com.lannstark.lec01;
-
-import java.util.Arrays;
-import java.util.List;
+package lec01_변수를_다루는_방법;
 
 public class Lec01Main {
 
@@ -10,7 +7,7 @@ public class Lec01Main {
     final long number2 = 10L; // (2)
 
     Long number3 = 1_000L; // (3)
-    Person person = new Person("최태현"); // (4)
+    Person person = new Person("최세환"); // (4)
   }
 
 }

@@ -1,4 +1,5 @@
 package form
 
-class KotlinMain {
+fun main() {
+
 }

@@ -1,4 +1,4 @@
-package com.lannstark.lec01;
+package lec01_변수를_다루는_방법;
 
 public class Person {
 

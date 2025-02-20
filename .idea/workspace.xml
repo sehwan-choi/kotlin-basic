@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2dc726a-0fe1-4d2c-bce5-41154142d708" name="Changes" comment="Kotlin&#10;6. 반복문을 다루는 방법&#10;7. 예외를 다루는 방법">
-      <change afterPath="$PROJECT_DIR$/src/lec09_클래스를_다루는_방법/JavaPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec09_클래스를_다루는_방법/KotlinMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec09_클래스를_다루는_방법/KotlinPerson.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec09_클래스를_다루는_방법/Lec09Main.java" afterDir="false" />
+    <list default="true" id="b2dc726a-0fe1-4d2c-bce5-41154142d708" name="Changes" comment="Kotlin&#10;8. 함수를 다루는 방법&#10;9. 클래스를 다루는 방법">
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Flyable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaDerived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaPenguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/JavaSwimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Lec10Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Penguin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/Swimable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec11_접근제어를_다루는_방법/KStringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec11_접근제어를_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec11_접근제어를_다루는_방법/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/JavaPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/JavaSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/Lec12Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/Movable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec12_object_키워드를_다루는_방법/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lec08_함수를_다루는_방법/KotlinMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lec08_함수를_다루는_방법/KotlinMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -68,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/study/kotlin_초급편/소스/kotlin-basic/src/lec09_클래스를_다루는_방법",
+    "last_opened_file_path": "C:/Users/user/Documents/study/kotlin_초급편/소스/kotlin-basic/src/lec12_object_키워드를_다루는_방법",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,33 +98,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec12_object_키워드를_다루는_방법" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec11_접근제어를_다루는_방법" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec10_상속을_다루는_방법" />
       <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec09_클래스를_다루는_방법" />
       <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec08_함수를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec07_예외를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec06_반복문을_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec05_제어문을_다루는_방법" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="lec01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lec11_접근제어를_다루는_방법" />
       <recent name="lec08_함수를_다루는_방법" />
       <recent name="lec06_반복문을_다루는_방법" />
       <recent name="lec05_제어문을_다루는_방법" />
       <recent name="lec02_null을_다루는_방법" />
-      <recent name="lec01" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinMainKt (5)">
+  <component name="RunManager" selected="Kotlin.KotlinMainKt (1)">
     <configuration name="KotlinMainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec02_null을_다루는_방법.KotlinMainKt" />
-      <module name="kotlin-basic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KotlinMainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec03_Type_다루는_방법.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="lec12_object_키워드를_다루는_방법.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +144,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KotlinMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lec10_상속을_다루는_방법.KotlinMainKt" />
+      <module name="kotlin-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KotlinMainKt (1)" />
+        <item itemvalue="Kotlin.KotlinMainKt" />
         <item itemvalue="Kotlin.KotlinMainKt (5)" />
         <item itemvalue="Kotlin.KotlinMainKt (4)" />
         <item itemvalue="Kotlin.KotlinMainKt (3)" />
-        <item itemvalue="Kotlin.KotlinMainKt (2)" />
-        <item itemvalue="Kotlin.KotlinMainKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +180,8 @@
       <workItem from="1739703823488" duration="4083000" />
       <workItem from="1739801774590" duration="3258000" />
       <workItem from="1739890041822" duration="1578000" />
-      <workItem from="1739974503365" duration="2676000" />
+      <workItem from="1739974503365" duration="2910000" />
+      <workItem from="1740058930940" duration="3691000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin&#10;1. 변수 다루는 방법&#10;2. null 다루는 방법&#10;3. Type 다루는 방법">
       <option name="closed" value="true" />
@@ -187,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739891628046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kotlin&#10;8. 함수를 다루는 방법&#10;9. 클래스를 다루는 방법">
+      <option name="closed" value="true" />
+      <created>1739977427259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739977427259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +225,8 @@
     <MESSAGE value="Kotlin&#10;1. 변수 다루는 방법&#10;2. null 다루는 방법&#10;3. Type 다루는 방법" />
     <MESSAGE value="Kotlin&#10;4. 연산자를 다루는 방법&#10;5. 제어문을 다루는 방법" />
     <MESSAGE value="Kotlin&#10;6. 반복문을 다루는 방법&#10;7. 예외를 다루는 방법" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin&#10;6. 반복문을 다루는 방법&#10;7. 예외를 다루는 방법" />
+    <MESSAGE value="Kotlin&#10;8. 함수를 다루는 방법&#10;9. 클래스를 다루는 방법" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin&#10;8. 함수를 다루는 방법&#10;9. 클래스를 다루는 방법" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

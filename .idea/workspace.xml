@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2dc726a-0fe1-4d2c-bce5-41154142d708" name="Changes" comment="Kotlin&#10;10. 상속을 다루는 방법&#10;11. 접근제어를 다루는 방법&#10;12. object를 다루는 방법">
-      <change afterPath="$PROJECT_DIR$/src/lec13_중첩클래스를_다루는_방법/JavaHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec13_중첩클래스를_다루는_방법/KotlinMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec13_중첩클래스를_다루는_방법/Lec13Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec14_다양한_클래스를_다루는_방법/JavaCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec14_다양한_클래스를_다루는_방법/JavaPersonDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec14_다양한_클래스를_다루는_방법/KotlinMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lec14_다양한_클래스를_다루는_방법/Lec14Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec15_배열과_컬렉션을_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec15_배열과_컬렉션을_다루는_방법/Lec15Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec16_다양한_함수를_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec16_다양한_함수를_다루는_방법/KotlinMain2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec16_다양한_함수를_다루는_방법/Lec16Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec16_다양한_함수를_다루는_방법/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec17_람다를_다루는_방법/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec17_람다를_다루는_방법/FruitFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec17_람다를_다루는_방법/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec17_람다를_다루는_방법/Lec17Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec18_컬렉션을_함수형으로_다루는_방법/Fruit/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec18_컬렉션을_함수형으로_다루는_방법/Fruit2/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/Jum_Label/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/TypeAlias_asImport/A/a.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/TypeAlias_asImport/B/b.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/TypeAlias_asImport/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/takeIf_takeUnless/KotlinMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lec19/구조분해/KotlinMain.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/KotlinMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lec10_상속을_다루는_방법/KotlinMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +74,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Lec15Main.executor": "Run",
+    "Kotlin.KotlinMain2Kt.executor": "Run",
     "Kotlin.KotlinMainKt (1).executor": "Run",
     "Kotlin.KotlinMainKt (2).executor": "Run",
     "Kotlin.KotlinMainKt (3).executor": "Run",
@@ -71,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/study/kotlin_초급편/소스/kotlin-basic/src/lec14_다양한_클래스를_다루는_방법",
+    "last_opened_file_path": "C:/Users/user/Documents/study/kotlin_초급편/소스/kotlin-basic/src/lec19/takeIf_takeUnless",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,54 +96,60 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec14_다양한_클래스를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec13_중첩클래스를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec12_object_키워드를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec11_접근제어를_다루는_방법" />
-      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec10_상속을_다루는_방법" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\takeIf_takeUnless" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\Jum_Label" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\구조분해" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\TypeAlias_asImport" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec18_컬렉션을_함수형으로_다루는_방법\Fruit2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\TypeAlias_asImport\B" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec19\TypeAlias_asImport\A" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec18_컬렉션을_함수형으로_다루는_방법\Fruit2" />
+      <recent name="C:\Users\user\Documents\study\kotlin_초급편\소스\kotlin-basic\src\lec18_컬렉션을_함수형으로_다루는_방법\Fruit" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="lec01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lec15_배열과_컬렉션을_다루는_방법" />
       <recent name="lec11_접근제어를_다루는_방법" />
       <recent name="lec08_함수를_다루는_방법" />
       <recent name="lec06_반복문을_다루는_방법" />
       <recent name="lec05_제어문을_다루는_방법" />
-      <recent name="lec02_null을_다루는_방법" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinMainKt (2)">
+  <component name="RunManager" selected="Kotlin.KotlinMainKt (1)">
     <configuration name="KotlinMainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec12_object_키워드를_다루는_방법.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="lec19.takeIf_takeUnless.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="KotlinMainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec14_다양한_클래스를_다루는_방법.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="lec18_컬렉션을_함수형으로_다루는_방법.Fruit2.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinMainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec08_함수를_다루는_방법.KotlinMainKt" />
+    <configuration name="KotlinMainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lec19.TypeAlias_asImport.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="KotlinMainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec09_클래스를_다루는_방법.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="lec19.Jum_Label.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="KotlinMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lec10_상속을_다루는_방법.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="lec19.구조분해.KotlinMainKt" />
       <module name="kotlin-basic" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KotlinMainKt (2)" />
         <item itemvalue="Kotlin.KotlinMainKt (1)" />
-        <item itemvalue="Kotlin.KotlinMainKt" />
         <item itemvalue="Kotlin.KotlinMainKt (5)" />
-        <item itemvalue="Kotlin.KotlinMainKt (4)" />
+        <item itemvalue="Kotlin.KotlinMainKt" />
+        <item itemvalue="Kotlin.KotlinMainKt (3)" />
+        <item itemvalue="Kotlin.KotlinMainKt (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +187,7 @@
       <workItem from="1739974503365" duration="2910000" />
       <workItem from="1740058930940" duration="3811000" />
       <workItem from="1740150658914" duration="1442000" />
+      <workItem from="1740290541697" duration="15282000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin&#10;1. 변수 다루는 방법&#10;2. null 다루는 방법&#10;3. Type 다루는 방법">
       <option name="closed" value="true" />
